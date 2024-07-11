@@ -9,7 +9,16 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
-			sidebar: [
+      sidebar: [
+        {
+          label: "前書き",
+          autogenerate: { directory: 'foreword' }
+        },
+        {
+          label: "本文",
+          autogenerate: {directory: "main"}
+        },
+
 				{
 					label: 'Guides',
 					items: [
