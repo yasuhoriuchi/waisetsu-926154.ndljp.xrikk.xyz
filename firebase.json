@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "waisetsu-926154",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
