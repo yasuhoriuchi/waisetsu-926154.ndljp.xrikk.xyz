@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
-    site: "",
+    site: "https://waisetsu-926154.ndljp.xrikk.xyz",
     title: '猥褻と科学',
     head: [
       {tag: 'script',
