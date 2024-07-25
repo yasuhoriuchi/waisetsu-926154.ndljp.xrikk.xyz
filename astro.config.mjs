@@ -8,6 +8,12 @@ export default defineConfig({
   site: "https://waisetsu-926154.ndljp.xrikk.xyz",
   integrations: [starlight({
     title: '猥褻と科学',
+    locales: {
+      root: {
+        label: '日本語',
+        lang: 'ja',
+      }
+    },
     head: [
       {tag: 'script',
         content: `
