@@ -43,7 +43,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       autogenerate: {
         directory: "main"
       }
-    }]
+      },{
+        label: "付録",
+        autogenerate: {
+          directory: "appendix"
+      }
+      }, {
+      label: "奥付など",
+      link: "/colophon/"
+
+      }
+    ]
   }), tailwind(
     {applyBaseStyles: false,}
   )]
